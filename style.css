@@ -710,6 +710,12 @@ footer {
         row-gap: 11rem;
         margin-bottom: 3rem;
     }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
