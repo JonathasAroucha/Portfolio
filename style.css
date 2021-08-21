@@ -742,10 +742,12 @@ footer {
 
     .orcamento-wrapper {
         width: auto;
+        height: auto;
     }
 
     .contato-wrapper {
         width: auto;
+        height: auto;
     }
 }
 
