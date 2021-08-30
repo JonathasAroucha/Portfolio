@@ -361,7 +361,7 @@ header {
 }
 
 .card:hover .card-img-wrapper img {
-    opacity: .5;
+    opacity: 0.15;
 }
 
 .card-info {
