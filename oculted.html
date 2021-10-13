@@ -1,0 +1,174 @@
+<!-- 
+    
+    
+    <style>
+
+        .btn-submit {
+    text-transform: uppercase;
+    width: 61%;
+    height: 2rem;
+    font-size: 1.2rem;
+    background: #3f0a6d;
+    background: -webkit-linear-gradient(to left, #850af1, #3f0a6d);
+    background: linear-gradient(to left, #850af1, #3f0a6d);
+    color: #eee;
+    font-family: var(--font-action);
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+
+.sessao-orcamento {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/bg-orcamento.jpg);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.orcamento-wrapper {
+    width: 60%;
+    height: 80%;
+    background-color: rgba(238, 238, 238, 0.877);
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, .5);
+    position: relative;
+}
+
+.sessao-orcamento h1 {
+    position: absolute;
+    top: -2.5rem;
+    left: 2rem;
+    background: #3f0a6d;
+    background: -webkit-linear-gradient(to left, #850af1, #3f0a6d);
+    background: linear-gradient(to left, #850af1, #3f0a6d);
+    padding: 0 3rem;
+    color: #fff;
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    font-weight: lighter;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+.sessao-orcamento form {
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.sessao-orcamento label {
+    font-family: var(--font-secundary);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sessao-orcamento input[type="number"] {
+    font-family: var(--font-secundary);
+    width: 4rem;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding-left: 0.3rem;
+}
+
+.btn-orcamento {
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    grid-column: 2;
+}
+    </style>
+
+    <section class="sessao-contato" id="contato">
+    <div class="contato-wrapper">
+        <div class="contato-left">
+
+        </div>
+        <div class="contato-right">
+            <h1>Contato</h1>
+            <form action="">
+                <div class="input-group">
+                    <input type="text" class="field" id="nome">
+                    <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" class="field" id="email">
+                    <label for="email" class="field-label">E-mail</label>
+                </div>
+                <div class="input-group">
+                    <textarea class="field" id="mensagem"></textarea>
+                    <label for="mensagem" class="field-label">Mensagem</label>
+                </div>
+                <button class="btn-submit" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="sessao-orcamento" id="orcamento">
+    <div class="orcamento-wrapper">
+        <h1>Faça um orçamento</h1>
+        <form>
+            <label for="qtde">Qtde de Páginas</label>
+            <input type="number" name="qtde" min="1" value="1" id="qtde">
+            <label for="js">Preciso de um script JS</label>
+            <input type="checkbox" name="js" id="js">
+            <label>Layout</label>
+            <div class="group-layout">
+                <div>
+                    <input type="radio" name="layout" id="layout-sim">
+                    <label for="layout-sim">Preciso de um layout</label>
+                </div>
+                <div>
+                    <input type="radio" name="layout" id="layout-nao">
+                    <label for="layout-nao">Já tenho um layout</label>
+                </div>
+            </div>
+            <label for="prazo">Prazo</label>
+            <input type="range" name="prazo" id="prazo" min="1" max="10">
+            <label id="preco">R$ 0,00</label>
+            <button class="btn btn-orcamento" type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+
+    <script>
+    document.querySelector("#qtde").addEventListener("change", atualizarPreco)
+    document.querySelector("#js").addEventListener("change", atualizarPreco)
+    document.querySelector("#layout-sim").addEventListener("change", atualizarPreco)
+    document.querySelector("#layout-nao").addEventListener("change", atualizarPreco)
+    document.querySelector("#prazo").addEventListener("change", function () {
+     const prazo = document.querySelector("#prazo").value
+     document.querySelector("label[for=prazo]").innerHTML = `Prazo: ${prazo} semanas`
+     atualizarPreco
+})
+
+function atualizarPreco() {
+     const qtde = document.querySelector("#qtde").value
+     const temJS = document.querySelector("#js").checked
+     const incluiLayout = document.querySelector("#layout-sim").checked
+     const prazo = document.querySelector("#prazo").value
+
+
+
+     let preco = qtde * 100
+     if (temJS) preco *= 1.1
+     if (incluiLayout) preco += 500
+     let taxaUrgencia = 1 - prazo * 0.1
+     preco *= 1 + taxaUrgencia
+
+
+     document.querySelector("#preco").innerHTML = `"R$ ${preco.toFixed(2)}`
+}    
+    
+    </script>
+</section> -->
