@@ -644,10 +644,6 @@ footer {
         align-items: center;
     }
 
-    .contato-wrapper {
-        width: auto;
-    }
-
     .footer-content{
         height: 100%;
     }
@@ -657,6 +653,38 @@ footer {
     }
     .conhecimento-text{
         padding-left: 10px;
+    }
+
+    .sessao-contato {
+        width: auto;
+    }
+    
+    .contato-wrapper {
+        width: auto;
+    }
+    
+    .contato-left {
+        width: auto;
+    }
+    
+    .contato-right {
+        width: auto;
+    }
+    
+    .sessao-contato h1 {
+        width: 10px;
+    }
+    
+    .sessao-contato form {
+        width: auto;
+    }
+    
+    .input-group {
+        width: auto;
+    }
+    
+    .field {
+        width: auto;
     }
 }
 
