@@ -2,269 +2,336 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <title>Portfólio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Portfólio</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QPL58VLYFG"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QPL58VLYFG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        gtag('config', 'G-QPL58VLYFG');
-    </script>
+    gtag('config', 'G-QPL58VLYFG');
+  </script>
 </head>
 
 <body>
 
-    <div class="container">
+  <div class="container">
 
-        <div class="hamburguer">
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-            <span>fechar</span>
-        </div>
-        <header id="home">
-            <div class="img-wrapper">
-                <img src="images/Banner.JPG">
-            </div>
-            <div class="banner">
-                <h1>Front End Developer </h1>
-                <p>Jonathas F. Aroucha</p>
-                <a href="https://jonathasaroucha.github.io/Curriculo/"><button>Saiba mais</button></a>
-            </div>
-        </header>
-        <aside class="sidebar">
-            <nav>
-                <ul class="menu">
-                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="social-media">
-                <a href="https://www.facebook.com/JonathasFAroucha/"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://github.com/JonathasAroucha"><i class="fab fa-github-square"></i></a>
-                <a href="https://www.instagram.com/jfaroucha/"><i class="fab fa-instagram-square"></i></a>
-            </div>
-        </aside>
-
-        <section class="sessao-conhecimentos" id="conhecimentos">
-            <div class="sessao-header">
-                <h1>Conhecimentos</h1>
-            </div>
-            <div class="conhecimentos">
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <i class="fab fa-html5"></i>
-                        <h3>HTML</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>HTML permite que os usuários criem e estruturem seções, parágrafos, cabeçalhos e links para
-                            páginas da internet ou aplicações. O HTML não é uma linguagem de programação, isso significa
-                            que não pode ser usado para criar funcionalidades dinâmicas. Entretanto, o HTML possibilita
-                            a organização e formatação de documentos, similar ao Microsoft Word.</p>
-                    </div>
-                </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <i class="fab fa-css3-alt"></i>
-                        <h3>CSS e SASS</h3>
-
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>CSS é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS
-                            separa o conteúdo da representação visual do site. / SASS são Folhas de Estilo com Sintaxe
-                            Espetacular. A ideia é manter a mesma lógica do CSS, mas de uma maneira mais organizada,
-                            intuitiva e com trechos de código facilmente reutilizáveis.</p>
-                    </div>
-                </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <i class="fab fa-react"></i>
-                        <h3>ReactJS</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>ReactJS é, portanto, uma biblioteca de JavaScript, open source, utilizada para construir user
-                            interfaces, nomeadas para aplicações de página única. O diferencial do React é ser rápida,
-                            escalável e simples, podendo ser usada com outras bibliotecas ou frameworks de JavaScript,
-                            como o Angular JS.</p>
-                    </div>
-                </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <i class="fab fa-js"></i>
-                        <h3>Javascript</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>JavaScript(JS) é uma linguagem de programação utilizada principalmente em páginas web. Com o
-                            JS, você pode mostrar mensagens e outras informações interessantes, fazer verificações ou
-                            mudar dinamicamente a apresentação visual das páginas, conforme o comportamento que você
-                            deseja que sua página (ou aplicação) possua.</p>
-                    </div>
-                </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <i class="fab fa-github"></i>
-                        <h3>Git e GitHub</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>Git é um sistema de controle de versão. Com ele podemos criar todo histórico de alterações no
-                            código do projeto e voltar para qualquer ponto para saber como o código estava naquela data.
-                            / Github é um serviço online de hospedagem de repositórios Git. Com ele podemos manter todos
-                            nossos commits e ramos sincronizados entre os membros do time. </p>
-                    </div>
-                </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <i class="fab fa-node-js"></i>
-                        <h3>NodeJS</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>NodeJS pode ser definido como um ambiente de execução Javascript server-side. Isso significa
-                            que com o Node. js é possível criar aplicações Javascript para rodar como uma aplicação
-                            standalone em uma máquina, não dependendo de um browser para a execução, como estamos
-                            acostumados.</p>
-                    </div>
-                </div>
-                <div class="conhecimento-img-wrapper">
-                    <img src="images/conhecimentos.png" alt="imagem conhecimento">
-                </div>
-            </div>
-        </section>
-
-        <section class="sessao-projetos" id="projetos">
-            <div class="sessao-header">
-                <h1>Projetos</h1>
-            </div>
-            <div class="projetos">
-                <div class="card" id="card1">
-                    <div class="card-img-wrapper">
-                        <img src="./images/ToDoList.png" alt="imagem do projeto toDo">
-                    </div>
-                    <div class="card-info">
-                        <h2>ToDoList</h2>
-                        <h3>JS, HTML & CSS</h3>
-                        <p>To-Do List são listas de todas as tarefas que você precisa realizar, ou seja, elas listam
-                            tudo que você tem a fazer, com as tarefas mais importantes no topo, e as tarefas menos
-                            importantes na parte inferior da lista.</p>
-                        <a href="https://jonathasaroucha.github.io/ToDoList/"><button class="btn">Saiba
-                                mais</button></a>
-                    </div>
-                </div>
-                <div class="card" id="card2">
-                    <div class="card-img-wrapper">
-                        <img src="./images/PaginaDeCaptura.png" alt="imagem do projeto Pagina de Captura">
-                    </div>
-                    <div class="card-info">
-                        <h2>Capture Page</h2>
-                        <h3>HTML & CSS</h3>
-                        <p>Capture Page é uma página de um site que é voltada para um único assunto específico, com o
-                            objetivo de obter as informações de contato de um usuário para transformá-lo em um lead.</p>
-                        <a href="https://jonathasaroucha.github.io/PaginaDeCaptura/"><button class="btn">Saiba
-                                mais</button></a>
-                    </div>
-                </div>
-                <div class="card" id="card3">
-                    <div class="card-img-wrapper">
-                        <img src="./images/Linktree.png" alt="imagem do projeto Linktree">
-                    </div>
-                    <div class="card-info">
-                        <h2>Linktree</h2>
-                        <h3>HTML & CSS</h3>
-                        <p>Linktree é serviço online para Instagram que permite divulgar os links de todos os seus
-                            perfis e sites em um mesmo lugar. É muito utilizada por influenciadores e empresas para
-                            promover suas contas em outras redes sociais.</p>
-                        <a href="https://jonathasaroucha.github.io/Linktree/"><button class="btn">Saiba
-                                Mais</button></a>
-                    </div>
-                </div>
-                <div class="card" id="card4">
-                    <div class="card-img-wrapper">
-                        <img src="./images/BarberShop.png" alt="imagem do projeto Barbershop">
-                    </div>
-                    <div class="card-info">
-                        <h2>Barber Shop</h2>
-                        <h3>HTML & CSS </h3>
-                        <p>Barber Shop é um layout de apenas uma página com todas as informações necessárias, ordenadas
-                            de maneira estratégica e otimizada. É uma ótima opção para quem está em busca de presença
-                            digital e não tem uma demanda para sites mais robustos.</p>
-                        <a href="https://jonathasaroucha.github.io/Barbershop/"><button class="btn">Saiba
-                                mais</button></a>
-                    </div>
-                </div>
-                <div class="card" id="card5">
-                    <div class="card-img-wrapper">
-                        <img src="./images/Perfilgithubmobile.jpeg" alt="imagem do projeto">
-                    </div>
-                    <div class="card-info">
-                        <h2>Perfil Github</h2>
-                        <h3>React.Js </h3>
-                        <p>Perfil Github API é uma aplicação de busca de usuários do github através da API disponibilizada pela plataforma. Com essa aplicação você consegue achar um perfil, ver seus repositórios, os mais acessados, seus seguidores e quem este perfil segue.</p>
-                        <a href="https://perfilgithubapi-jonathasaroucha.netlify.app"><button class="btn">Saiba
-                                mais</button></a>
-                    </div>
-                </div>
-                
-            </div>
-
-        </section>
-
-        <section class="sessao-contato" id="contato">
-            <div class="contato-wrapper">
-                <div class="contato-left">
-
-                </div>
-                <div class="contato-right">
-                    <h1>Contato</h1>
-                    <form action="">
-                        <div class="input-group">
-                            <input type="text" value="Jonathas Aroucha" class="field" id="nome">
-                            <label for="nome" class="field-label">Nome</label>
-                        </div>
-                        <div class="input-group">
-                            <input type="text" value="Jonathasfelipe_aroucha@hotmail.com" class="field" id="email">
-                            <label for="email" class="field-label">E-mail</label>
-                        </div>
-                        
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <div class="footer-content">
-                <p>
-                    Copyright &copy; 2021 - Developed By - Jonathas F. Aroucha
-                </p>
-                <div class="social-list">
-                    <ul>
-                        <li><a href="https://www.facebook.com/JonathasFAroucha/"><i
-                                    class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://www.instagram.com/jfaroucha/"><i class="fab fa-instagram-square"></i></a>
-                        </li>
-                        <li><a href="https://github.com/JonathasAroucha"><i class="fab fa-github-square"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-        <a href="#home" id="link-topo">
-            <i class="fas fa-arrow-up"></i>
-        </a>
+    <div class="hamburguer">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+      <span>fechar</span>
     </div>
+    <header id="home">
+      <div class="img-wrapper">
+        <img src="images/Banner.JPG">
+      </div>
+      <div class="banner">
+        <h1>Front End Developer </h1>
+        <p>Jonathas F. Aroucha</p>
+        <a href="https://jonathasaroucha.github.io/Curriculo/"><button>Saiba mais</button></a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+          <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+          <li class="menu-item"><a href="#cards de projetos" class="menu-link">Cards</a></li>
+          <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="social-media">
+        <a href="https://www.facebook.com/JonathasFAroucha/"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://github.com/JonathasAroucha"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.instagram.com/jfaroucha/"><i class="fab fa-instagram-square"></i></a>
+      </div>
+    </aside>
+
+    <section class="sessao-conhecimentos" id="conhecimentos">
+      <div class="sessao-header">
+        <h1>Conhecimentos</h1>
+      </div>
+      <div class="conhecimentos">
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+          </div>
+        </div>
+        <div class="conhecimento">
+            <div class="conhecimento-header">
+                <i class="fab fa-sass"></i>
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+                <i class="fab fa-bootstrap"></i>
+              <h3>Bootstrap</h3>
+            </div>
+          </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-react"></i>
+            <h3>ReactJS</h3>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-js"></i>
+            <h3>Javascript</h3>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-github"></i>
+            <h3>Git e GitHub</h3>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-node-js"></i>
+            <h3>NodeJS</h3>
+          </div>
+        </div>
+        <div class="conhecimento-img-wrapper">
+          <img src="images/conhecimentos.png" alt="imagem conhecimento">
+        </div>
+      </div>
+    </section>
+
+    <section class"sessao-carrossel" id="projetos">
+      <div class="sessao-header">
+        <h1>Projetos</h1>
+      </div>
+      <div class="gallery autoplay items-5">
+        <div id="item-1" class="control-operator"></div>
+        <div id="item-2" class="control-operator"></div>
+        <div id="item-3" class="control-operator"></div>
+        <div id="item-4" class="control-operator"></div>
+        <div id="item-5" class="control-operator"></div>
+
+        <figure class="item">
+          <h1><img src="/images/NetflixClone.jpg"></h1>
+        </figure>
+        <figure class="item">
+          <h1><img src="/images/Bootstrap.jpg"></h1>
+        </figure>
+        <figure class="item">
+          <h1><img src="/images/Letmeask.jpg"></h1>
+        </figure>
+        <figure class="item">
+          <h1><img src="/images/BarberShop.jpg"></h1>
+        </figure>
+        <figure class="item">
+          <h1><img src="/images/PaginaDeCaptura.jpg"></h1>
+        </figure>
+
+        <div class="controls">
+          <a href="#item-1" class="control-button">.</a>
+          <a href="#item-2" class="control-button">.</a>
+          <a href="#item-3" class="control-button">.</a>
+          <a href="#item-4" class="control-button">.</a>
+          <a href="#item-5" class="control-button">.</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sessao-projetos" id="cards de projetos">
+      <div class="sessao-header">
+        <h1>Cards dos projetos</h1>
+      </div>
+      
+
+      <div class="projetos">
+        <div class="card" id="card1">
+          <div class="card-img-wrapper">
+            <img src="./images/ToDoList.png" alt="imagem do projeto toDo">
+          </div>
+          <div class="card-info">
+            <h2>ToDoList</h2>
+            <h3>JS, HTML & CSS</h3>
+            <p>To-Do List são listas de todas as tarefas que você precisa realizar, ou seja, elas listam
+              tudo que você tem a fazer, com as tarefas mais importantes no topo, e as tarefas menos
+              importantes na parte inferior da lista.</p>
+            <a href="https://jonathasaroucha.github.io/ToDoList/"><button class="btn">Saiba
+                mais</button></a>
+          </div>
+        </div>
+        <div class="card" id="card2">
+          <div class="card-img-wrapper">
+            <img src="./images/PaginaDeCaptura.jpg" alt="imagem do projeto Pagina de Captura">
+          </div>
+          <div class="card-info">
+            <h2>Capture Page</h2>
+            <h3>HTML & CSS</h3>
+            <p>Capture Page é uma página de um site que é voltada para um único assunto específico, com o
+              objetivo de obter as informações de contato de um usuário para transformá-lo em um lead.</p>
+            <a href="https://jonathasaroucha.github.io/PaginaDeCaptura/"><button class="btn">Saiba
+                mais</button></a>
+          </div>
+        </div>
+        <div class="card" id="card3">
+          <div class="card-img-wrapper">
+            <img src="./images/Linktree.jpg" alt="imagem do projeto Linktree">
+          </div>
+          <div class="card-info">
+            <h2>Linktree</h2>
+            <h3>HTML & CSS</h3>
+            <p>Linktree é serviço online para Instagram que permite divulgar os links de todos os seus
+              perfis e sites em um mesmo lugar. É muito utilizada por influenciadores e empresas para
+              promover suas contas em outras redes sociais.</p>
+            <a href="https://jonathasaroucha.github.io/Linktree/"><button class="btn">Saiba
+                Mais</button></a>
+          </div>
+        </div>
+        <div class="card" id="card4">
+          <div class="card-img-wrapper">
+            <img src="./images/BarberShop.jpg" alt="imagem do projeto Barbershop">
+          </div>
+          <div class="card-info">
+            <h2>Barber Shop</h2>
+            <h3>HTML & CSS </h3>
+            <p>Barber Shop é um layout de apenas uma página com todas as informações necessárias, ordenadas
+              de maneira estratégica e otimizada. É uma ótima opção para quem está em busca de presença
+              digital e não tem uma demanda para sites mais robustos.</p>
+            <a href="https://jonathasaroucha.github.io/Barbershop/"><button class="btn">Saiba
+                mais</button></a>
+          </div>
+        </div>
+        <div class="card" id="card5">
+          <div class="card-img-wrapper">
+            <img src="./images/Perfilgithubmobile.jpeg" alt="imagem do projeto">
+          </div>
+          <div class="card-info">
+            <h2>Perfil Github</h2>
+            <h3>React.Js </h3>
+            <p>Perfil Github API é uma aplicação de busca de usuários do github através da API disponibilizada pela
+              plataforma. Nessa aplicação você consegue procura um perfil e olha suas informações importantes.</p>
+            <a href="https://perfilgithubapi-jonathasaroucha.netlify.app"><button class="btn">Saiba
+                mais</button></a>
+          </div>
+        </div>
+        <div class="card" id="card6">
+          <div class="card-img-wrapper">
+            <img src="./images/NetflixClone.jpg" alt="imagem do projeto">
+          </div>
+          <div class="card-info">
+            <h2>Netflix Clone</h2>
+            <h3>React.Js </h3>
+            <p>Netflix Clone é uma aplicação feita com a intenção de clonar a plataforma da Netflix com dados da API da
+              Themoviedb.org</p>
+            <a href="https://jfanetflixclone.netlify.app/"><button class="btn">Saiba
+                mais</button></a>
+          </div>
+        </div>
+        <div class="card" id="card7">
+          <div class="card-img-wrapper">
+            <img src="./images/Bootstrap.jpg" alt="imagem do projeto">
+          </div>
+          <div class="card-info">
+            <h2>Bootstrap Page</h2>
+            <h3>HTML & Bootstrap </h3>
+            <p>Netflix Clone é uma aplicação feita com a intenção de clonar a plataforma da Netflix com dados da API da
+              Themoviedb.org</p>
+            <a href="https://jfanetflixclone.netlify.app/"><button class="btn">Saiba
+                mais</button></a>
+          </div>
+        </div>
+        <div class="card" id="card8">
+          <div class="card-img-wrapper">
+            <img src="./images/ClientsApi.jpg" alt="imagem do projeto">
+          </div>
+          <div class="card-info">
+            <h2>Netflix Clone</h2>
+            <h3>React.Js </h3>
+            <p>Netflix Clone é uma aplicação feita com a intenção de clonar a plataforma da Netflix com dados da API da
+              Themoviedb.org</p>
+            <a href="https://jfanetflixclone.netlify.app/"><button class="btn">Saiba
+                mais</button></a>
+          </div>
+        </div>
+        <div class="card" id="card9">
+          <div class="card-img-wrapper">
+            <img src="./images/Letmeask.jpg" alt="imagem do projeto">
+          </div>
+          <div class="card-info">
+            <h2>Netflix Clone</h2>
+            <h3>React.Js </h3>
+            <p>Netflix Clone é uma aplicação feita com a intenção de clonar a plataforma da Netflix com dados da API da
+              Themoviedb.org</p>
+            <a href="https://jfanetflixclone.netlify.app/"><button class="btn">Saiba
+                mais</button></a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="sessao-contato" id="contato">
+      <div class="contato-wrapper">
+        <div class="contato-left">
+
+        </div>
+        <div class="contato-right">
+          <h1>Contato</h1>
+          <form action="">
+            <div class="input-group">
+              <input type="text" value="Jonathas Aroucha" class="field" id="nome">
+              <label for="nome" class="field-label">Nome</label>
+            </div>
+            <div class="input-group">
+              <input type="text" value="Jonathasfelipe_aroucha@hotmail.com" class="field" id="email">
+              <label for="email" class="field-label">E-mail</label>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          Copyright &copy; 2021 - Developed By - Jonathas F. Aroucha
+        </p>
+        <div class="social-list">
+          <ul>
+            <li><a href="https://www.facebook.com/JonathasFAroucha/"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com/jfaroucha/"><i class="fab fa-instagram-square"></i></a>
+            </li>
+            <li><a href="https://github.com/JonathasAroucha"><i class="fab fa-github-square"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <a href="#home" id="link-topo">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
 </body>
 
 <script src="script.js"></script>
