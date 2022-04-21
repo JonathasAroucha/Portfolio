@@ -65,7 +65,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #850af1;
+  background-color: #05dd34;
   color: white;
   font-family: var(--font-action);
   opacity: 0;
@@ -74,7 +74,7 @@ html {
 .hamburguer span::before {
   content: "";
   position: absolute;
-  border-right: 0.5rem solid #850af1;
+  border-right: 0.5rem solid #05dd34;
   border-top: 0.5rem solid transparent;
   border-left: 0.5rem solid transparent;
   border-bottom: 0.5rem solid transparent;
@@ -151,9 +151,9 @@ header {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  background: #5c258d;
-  background: -webkit-linear-gradient(to right, #2a83ac, #5c258d);
-  background: linear-gradient(to right, #2a83ac, #5c258d);
+  background: #05dd34;
+  background: -webkit-linear-gradient(to left, #242424, #05dd34);
+  background: linear-gradient(to left, #242424, #05dd34);
   padding: 1rem 3rem;
   border: none;
   border-radius: 5px;
@@ -163,9 +163,9 @@ header {
 }
 
 .banner button:hover {
-  background: #5c258d;
-  background: -webkit-linear-gradient(to left, #09a0e6, #7e0fdf);
-  background: linear-gradient(to left, #09a0e6, #7e0fdf);
+  background: #05dd34;
+  background: -webkit-linear-gradient(to left, #242424, #05dd34);
+  background: linear-gradient(to left, #242424, #05dd34);
 }
 
 @keyframes moveBanner {
@@ -214,7 +214,7 @@ header {
 }
 
 .menu-link:hover {
-  color: #850af1;
+  color: #05dd34;
 }
 
 .social-media {
@@ -226,7 +226,7 @@ header {
 }
 
 .social-media i {
-  color: #5c258d;
+  color: #037c1d;
   height: 2.5rem;
   width: 2.5rem;
   font-size: 2rem;
@@ -238,7 +238,7 @@ header {
 }
 
 .social-media i:hover {
-  color: #850af1;
+  color: #05dd34;
 }
 /* --------------------------------------------- CONHECIMENTOS */
 .conhecimentos {
@@ -296,7 +296,7 @@ header {
   font-family: var(--font-primary);
   font-size: 3rem;
   color: #555;
-  border-bottom: solid 3px #5c258d;
+  border-bottom: solid 3px #05dd34;
   margin-bottom: 1.5rem;
 }
 
@@ -345,12 +345,12 @@ header {
   overflow: hidden;
 }
 .gallery .control-button {
-  color: #7e0fdf;
-  color: #7e0fdf;
+  color: #014610;
+  color: #034b13;
 }
 .gallery .control-button:hover {
-  color: #7e0fdf;
-  color: #7e0fdf;
+  color: #05dd34;
+  color: #05dd34;
 }
 .gallery .item {
   height: 400px;
@@ -432,7 +432,7 @@ header {
 .card-info h3 {
   font-family: var(--font-action);
   font-weight: bolder;
-  color: #850af1;
+  color: #05dd34;
   margin-bottom: 1.5rem;
 }
 
@@ -445,9 +445,9 @@ header {
 }
 
 .btn {
-  background: #3f0a6d;
-  background: -webkit-linear-gradient(to left, #850af1, #3f0a6d);
-  background: linear-gradient(to left, #850af1, #3f0a6d);
+  background: #05dd34;
+  background: -webkit-linear-gradient(to left, #05dd34, #242424);
+  background: linear-gradient(to left, #05dd34, #242424);
   color: #eee;
   font-family: var(--font-action);
   border-radius: 0.5rem;
@@ -590,9 +590,9 @@ footer {
   bottom: 3rem;
   width: 3rem;
   height: 3rem;
-  background: #3f0a6d;
-  background: -webkit-linear-gradient(to left, #850af1, #3f0a6d);
-  background: linear-gradient(to left, #850af1, #3f0a6d);
+  background: #05dd34;
+  background: -webkit-linear-gradient(to left, #05dd34, #242424);
+  background: linear-gradient(to left, #05dd34, #242424);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -707,8 +707,8 @@ footer {
 /* ------------------------------- GALLERYCONFIG */
 
 .gallery .control-operator:target ~ .controls .control-button {
-  color: #7e0fdf;
-  color: #7e0fdf;
+  color: #05dd34;
+  color: #05dd34;
 }
 .gallery .control-button:first-of-type,
 .gallery
@@ -731,8 +731,8 @@ footer {
   .control-operator:nth-of-type(5):target
   ~ .controls
   .control-button:nth-of-type(5) {
-  color: #7e0fdf;
-  color: #7e0fdf;
+  color: #05dd34;
+  color: #05dd34;
 }
 .gallery .item:first-of-type {
   position: static;
