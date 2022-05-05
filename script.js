@@ -1,8 +1,12 @@
+let hamburguer = document.querySelector(".hamburguer")
+let container = document.querySelector(".container")
+let menu = document.querySelector(".menu")
 
-document.querySelector(".hamburguer").addEventListener("click", function () {
-    document.querySelector(".container").classList.add("show-menu")
+hamburguer.addEventListener("click", function () {
+    container.classList.add("show-menu")
 })
-document.querySelector(".menu").addEventListener("click", function () {
-		document.querySelector(".container").classList.remove("show-menu")
+
+menu.addEventListener("click", function () {
+        container.classList.remove("show-menu")
 })
 
