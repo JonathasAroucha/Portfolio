@@ -17,7 +17,6 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 /* --------------------------------------------- HAMBURGUER */
 .hamburguer {
@@ -26,7 +25,7 @@ html {
   position: fixed;
   z-index: 100;
   right: 2rem;
-  top: 2rem;
+  top: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
